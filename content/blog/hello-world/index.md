@@ -1,22 +1,25 @@
 ---
-title: Hello World
-date: "2015-05-01T22:12:03.284Z"
-description: "Hello World"
+title: Hello World!
+date: "2020-07-21 20:00:00"
+description: "O primeiro post clássico"
 ---
 
-This is my first post on my new fake blog! How exciting!
+Esse é o meu primeiro post! Como o padrão de qualquer início de algum projeto na TI,
+não podia deixar passar o primeiro Hello World.
 
-I'm sure I'll write a lot more interesting things in the future.
+Decidi criar esse espaço para compartilhar um pouco minhas experiências na área. A princípio não haverá uma peridiocidade de posts definida, mas assim que tiver um tempo livre e vontade de compartilhar algo, aqui será o lugar!
 
-Oh, and here's a great quote from this Wikipedia on
-[salted duck eggs](https://en.wikipedia.org/wiki/Salted_duck_egg).
+Atualmente sou Analista de Sistemas, trabalhando com .NET, Javascript, ASP. No momento curioso e criando novos projetos com 
+outras tecnologias como React, Laravel, PostgreSQL, Python e outras.
 
-> A salted duck egg is a Chinese preserved food product made by soaking duck
-> eggs in brine, or packing each egg in damp, salted charcoal. In Asian
-> supermarkets, these eggs are sometimes sold covered in a thick layer of salted
-> charcoal paste. The eggs may also be sold with the salted paste removed,
-> wrapped in plastic, and vacuum packed. From the salt curing process, the
-> salted duck eggs have a briny aroma, a gelatin-like egg white and a
-> firm-textured, round yolk that is bright orange-red in color.
+Como estou cursando minha segunda graduação em Informática Biomédica, poderão haver aqui alguns posts sobre, abordando temas como: 
+Bioinformática, Informática em Saúde, Reconhecimento de Padrões, entre outros.
 
-![Chinese Salty Egg](./salty_egg.jpg)
+
+
+Como tenho um leve interesse pela leitura, podem esperar também algumas citações no final dos posts..
+
+> "Give a man a fish and you feed him for a day. Teach a man to fish and you feed him for a lifetime." - Desconhecido
+
+[LinkedIn](https://www.linkedin.com/in/lucas-pachecos/)
+
