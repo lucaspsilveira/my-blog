@@ -2,6 +2,7 @@
 title: Hello World!
 date: "2020-07-21 20:00:00"
 description: "O primeiro post clássico"
+tags: ["pessoal"]
 ---
 
 Esse é o meu primeiro post! Como o padrão de qualquer início de algum projeto na TI,

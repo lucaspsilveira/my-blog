@@ -5,6 +5,7 @@ import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm, scale } from "../utils/typography"
+import kebabCase from "lodash/kebabCase"
 
 const BlogPostTemplate = ({ data, pageContext, location }) => {
   const post = data.markdownRemark
@@ -36,6 +37,20 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
           >
             {post.frontmatter.date}
           </p>
+          {
+            typeof(post.frontmatter.tags) != "undefined" && post.frontmatter.tags != null ? post.frontmatter.tags.map(
+                  tag => <Link  to={`/tags/${kebabCase(tag)}/`} 
+                                style= {{
+                                  margin: "0 2px",
+                                  padding: "4px 10px",
+                                  color: "#fff",
+                                  background: "rgb(141 101 101)",
+                                  fontSize: "80%",
+                                  fontFamily: "sans-serif",
+                                  textDecoration: "none",
+                                  textTransform: "uppercase"
+                                  }} >{tag}</Link>) : ""
+          }
         </header>
         <section dangerouslySetInnerHTML={{ __html: post.html }} />
         <hr
@@ -94,7 +109,8 @@ export const pageQuery = graphql`
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
-        description
+        description,
+        tags
       }
     }
   }
