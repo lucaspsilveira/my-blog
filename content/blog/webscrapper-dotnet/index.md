@@ -1,11 +1,11 @@
 ---
-title: Web Scrapping com .NET Core 3.1
+title: Web scraping com .NET Core 3.1
 date: "2020-09-20 23:00:00"
-description: "Realizando web scrapping em um site com AngleSharp"
-tags: ["dotnet", "webscrapping"]
+description: "Realizando web scraping em um site com AngleSharp"
+tags: ["dotnet", "webscraping"]
 ---
 
-Recentemente tive a necessidade de buscar algumas informações em sites que não possuíam uma API para recuperar os dados necessários. Então, decidi que iria utilizar algumas técnicas de web scrapping para buscar as informações que precisava. Já havia construído alguns web scrappers com Python e PHP. Porém, decidi me desafiar e criar um com .NET Core 3.1 e C#. Para isso utilizei um pacote, disponível no gerenciador de pacotes Nuget, chamado AngleSharp. Este pacote pode ser encontrado [aqui](https://www.nuget.org/packages/AngleSharp/1.0.0-alpha-827).
+Recentemente tive a necessidade de buscar algumas informações em sites que não possuíam uma API para recuperar os dados necessários. Então, decidi que iria utilizar algumas técnicas de web scraping para buscar as informações que precisava. Já havia construído alguns web scrapers com Python e PHP. Porém, decidi me desafiar e criar um com .NET Core 3.1 e C#. Para isso utilizei um pacote, disponível no gerenciador de pacotes Nuget, chamado AngleSharp. Este pacote pode ser encontrado [aqui](https://www.nuget.org/packages/AngleSharp/1.0.0-alpha-827).
 
 Para exemplificar aqui, vamos acessar o site [pensador.com](https://www.pensador.com/), e recuperar as citações que ficam disponíveis para visualização. Nosso objetivo então é **recuperar as citações de um determinado autor ou tema e armazenarmos em nosso dispositivo.**
 
@@ -290,6 +290,6 @@ namespace PensadorScrapper
 
 ## Conclusão
 
-Pronto! Temos uma aplicação que realiza um Web Scrapping no site pensador.com e retorna todas as citações disponíveis de um determinado autor ou tema. Claro que normalmente não é só isso que desejamos. Muitas vezes necessitamos armazenar essas informações. Por esse motivo eu já realizei também a integração dessa aplicação com um banco de dados, onde essas informações ficam armazenadas. Mas como o post já ficou extenso, vou tratar desta etapa em um outro post aqui. Utilizaremos SQLite para armazenar e recuperar esses dados. O código completo desse post, com a versão já utilizando o banco de dados pode ser encontrado no meu [Github](https://github.com/lucaspsilveira/PensadorScrapper). Abaixo temos um GIF da aplicação funcionando:
+Pronto! Temos uma aplicação que realiza um Web scraping no site pensador.com e retorna todas as citações disponíveis de um determinado autor ou tema. Claro que normalmente não é só isso que desejamos. Muitas vezes necessitamos armazenar essas informações. Por esse motivo eu já realizei também a integração dessa aplicação com um banco de dados, onde essas informações ficam armazenadas. Mas como o post já ficou extenso, vou tratar desta etapa em um outro post aqui. Utilizaremos SQLite para armazenar e recuperar esses dados. O código completo desse post, com a versão já utilizando o banco de dados pode ser encontrado no meu [Github](https://github.com/lucaspsilveira/PensadorScrapper). Abaixo temos um GIF da aplicação funcionando:
 
 ![scrapperpensador.gif](scrapperpensador.gif)
