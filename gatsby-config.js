@@ -3,10 +3,10 @@ module.exports = {
     title: `Lucas Pacheco's Blog`,
     author: {
       name: `Lucas Pacheco`,
-      summary: `sempre curioso e pensando em novas soluções.`,
+      summary: `always curious and excited with about technologies.`,
     },
-    description: `Repositório de textos sobre minha jornada pela área da tecnologia.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
+    description: `Text repository built along my journey in the technology world.`,
+    siteUrl: `https://lucaspacheco.dev/`,
     social: {
       twitter: `lucaspsilveiras`,
     },
@@ -60,8 +60,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `Lucas Pacheco's Blog`,
+        short_name: `LP Blog`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,

@@ -19,7 +19,11 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
         description={post.frontmatter.description || post.excerpt}
       />
       <article>
-        <header>
+        <header
+          style={{
+            marginBottom: rhythm(1),
+          }}
+        >
           <h1
             style={{
               marginTop: rhythm(1),
@@ -32,7 +36,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
             style={{
               ...scale(-1 / 5),
               display: `block`,
-              marginBottom: rhythm(1),
+              marginBottom: rhythm(0.3),
             }}
           >
             {post.frontmatter.date}
